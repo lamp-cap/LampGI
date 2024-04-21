@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\newfile">
+      <UniqueIdentifier>{ebfa2c28-fdfb-4ab4-a0a6-af5909047816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\newfile\Passes">
+      <UniqueIdentifier>{be87205f-eba3-4b9f-8ef9-90bf6fe99a0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\newfile\main">
+      <UniqueIdentifier>{02200972-dbd8-4116-ae3b-b9bb9876f912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{9c906623-3859-46ce-9e1f-4303db7c5746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\newfile\d3d">
+      <UniqueIdentifier>{1e06ffa2-3cfe-47ed-8376-a0de33adc805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\newfile\Geometry">
+      <UniqueIdentifier>{e179dd38-4ff1-4b42-88fc-12b17a1f216a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\newfile\thirdParty">
+      <UniqueIdentifier>{7ce09e21-444c-4614-9e37-7509722cabcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\newfile\Passes\LampDI">
+      <UniqueIdentifier>{e42c57aa-ef69-4d35-9a15-cd7eefba2574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\newfile\Passes\Common">
+      <UniqueIdentifier>{989609f7-d1b4-4b1b-84a7-aa233b46ace3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\newfile\Passes\GI">
+      <UniqueIdentifier>{f19f9d04-667c-4c62-8dca-08fbad776983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="头文件\D3D">
+      <UniqueIdentifier>{c3fa5d22-a6e2-4ff6-a5e1-1e19dd0e5c5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\windows">
+      <UniqueIdentifier>{da2a276f-14ec-422b-9e6f-a7c448e1e087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Pass">
+      <UniqueIdentifier>{daf16235-8d08-4c1a-bbe4-5772b51faee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Pass\LampDI">
+      <UniqueIdentifier>{1077e1ce-8560-418c-a1dc-06caa1031956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Pass\Common">
+      <UniqueIdentifier>{101752df-24f3-439e-b238-fd13d48705ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Pass\GI">
+      <UniqueIdentifier>{6253ad81-7c11-49cf-af42-c6e93a6967aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Geometry">
+      <UniqueIdentifier>{2cc2b3a4-9cdb-480a-9520-832e2e5f4e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Texture">
+      <UniqueIdentifier>{e488b3a4-ac12-4dbc-bad8-fab061e07f1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Envir">
+      <UniqueIdentifier>{02c981ce-9154-430a-a1b7-15679a66b573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\main">
+      <UniqueIdentifier>{86d8b48d-47f5-4b65-9bdb-ab688aab64ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DX12Project1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D3D\d3dApp.cpp">
+      <Filter>源文件\newfile\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D3D\d3dUtil.cpp">
+      <Filter>源文件\newfile\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\envir\Camera.cpp">
+      <Filter>源文件\newfile\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture\DDSTextureLoader.cpp">
+      <Filter>源文件\newfile\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\envir\GameTimer.cpp">
+      <Filter>源文件\newfile\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Geometry\GeometryGenerator.cpp">
+      <Filter>源文件\newfile\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D3D\FrameResource.cpp">
+      <Filter>源文件\newfile\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\D3D\MathHelper.cpp">
+      <Filter>源文件\newfile\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\Sobel.cpp">
+      <Filter>源文件\newfile\Passes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\Voxelize.cpp">
+      <Filter>源文件\newfile\Passes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\App.cpp">
+      <Filter>源文件\newfile\main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main\RootSignature.cpp">
+      <Filter>源文件\newfile\main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main\PSO.cpp">
+      <Filter>源文件\newfile\main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main\Shader.cpp">
+      <Filter>源文件\newfile\main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main\ConstantBuffer.cpp">
+      <Filter>源文件\newfile\main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main\Controls.cpp">
+      <Filter>源文件\newfile\main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main\DescriptorHeaps.cpp">
+      <Filter>源文件\newfile\main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\TAA.cpp">
+      <Filter>源文件\newfile\Passes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main\Geometry.cpp">
+      <Filter>源文件\newfile\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Geometry\GLTFLoader.cpp">
+      <Filter>源文件\newfile\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdParty\tinygltf\tiny_gltf.cc">
+      <Filter>源文件\newfile\thirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\LampDI\CompositionDI.cpp">
+      <Filter>源文件\newfile\Passes\LampDI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\LampDI\LampDI.cpp">
+      <Filter>源文件\newfile\Passes\LampDI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\LampDI\ProbeDI.cpp">
+      <Filter>源文件\newfile\Passes\LampDI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\LampDI\ScreenDI.cpp">
+      <Filter>源文件\newfile\Passes\LampDI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\LampDI\VoxelDI.cpp">
+      <Filter>源文件\newfile\Passes\LampDI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\Blit.cpp">
+      <Filter>源文件\newfile\Passes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\DeferLighting.cpp">
+      <Filter>源文件\newfile\Passes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\GBuffer.cpp">
+      <Filter>源文件\newfile\Passes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\Hiz.cpp">
+      <Filter>源文件\newfile\Passes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\Mipmap.cpp">
+      <Filter>源文件\newfile\Passes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\Mipmap3D.cpp">
+      <Filter>源文件\newfile\Passes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\ProbeGI.cpp">
+      <Filter>源文件\newfile\Passes\GI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\RenderPass.cpp">
+      <Filter>源文件\newfile\Passes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\SceneRenderPass.cpp">
+      <Filter>源文件\newfile\Passes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\ScreenRenderPass.cpp">
+      <Filter>源文件\newfile\Passes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\ShadowMap.cpp">
+      <Filter>源文件\newfile\Passes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\SSGI.cpp">
+      <Filter>源文件\newfile\Passes\GI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\VXGI.cpp">
+      <Filter>源文件\newfile\Passes\GI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\WorldProbe.cpp">
+      <Filter>源文件\newfile\Passes\GI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\WorldProbeDebug.cpp">
+      <Filter>源文件\newfile\Passes\GI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\Ssao.cpp">
+      <Filter>源文件\newfile\Passes\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\LampDI\ProbeND.cpp">
+      <Filter>源文件\newfile\Passes\LampDI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\LampDI\ScreenProbeSH.cpp">
+      <Filter>源文件\newfile\Passes\LampDI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pass\LampDI\Reflection.cpp">
+      <Filter>源文件\newfile\Passes\LampDI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DX12Project1.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="DX12Project1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\D3D\d3dApp.h">
+      <Filter>头文件\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3D\d3dUtil.h">
+      <Filter>头文件\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3D\d3dx12.h">
+      <Filter>头文件\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3D\FrameResource.h">
+      <Filter>头文件\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3D\MathHelper.h">
+      <Filter>头文件\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\D3D\UploadBuffer.h">
+      <Filter>头文件\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\envir\Camera.h">
+      <Filter>头文件\Envir</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\envir\GameTimer.h">
+      <Filter>头文件\Envir</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pass\Voxelize.h">
+      <Filter>头文件\Pass</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pass\Sobel.h">
+      <Filter>头文件\Pass</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\main\RootSignature.h">
+      <Filter>头文件\main</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\main\PSO.h">
+      <Filter>头文件\main</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\main\Shader.h">
+      <Filter>头文件\main</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\main\RenderItem.h">
+      <Filter>头文件\main</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\main\DescriptorHeap.h">
+      <Filter>头文件\main</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pass\TAA.h">
+      <Filter>头文件\Pass</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Geometry\GLTFLoader.h">
+      <Filter>头文件\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\main\geometry.h">
+      <Filter>头文件\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pass\LampDI\CompositionDI.h">
+      <Filter>头文件\Pass\LampDI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pass\LampDI\LampDI.h">
+      <Filter>头文件\Pass\LampDI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pass\LampDI\ProbeDI.h">
+      <Filter>头文件\Pass\LampDI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pass\LampDI\ScreenDI.h">
+      <Filter>头文件\Pass\LampDI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pass\LampDI\VoxelDI.h">
+      <Filter>头文件\Pass\LampDI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pass\Blit.h">
+      <Filter>头文件\Pass\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pass\DeferLighting.h">
+      <Filter>头文件\Pass\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pass\GBuffer.h">
+      <Filter>头文件\Pass\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pass\Hiz.h">
+      <Filter>头文件\Pass\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pass\Mipmap.h">
+      <Filter>头文件\Pass\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pass\Mipmap3D.h">
+      <Filter>头文件\Pass\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pass\ProbeGI.h">
+      <Filter>头文件\Pass\GI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pass\RenderPass.h">
+      <Filter>头文件\Pass\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pass\SceneRenderPass.h">
+      <Filter>头文件\Pass\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pass\ScreenRenderPass.h">
+      <Filter>头文件\Pass\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pass\VXGI.h">
+      <Filter>头文件\Pass\GI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pass\WorldProbe.h">
+      <Filter>头文件\Pass\GI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pass\WorldProbeDebug.h">
+      <Filter>头文件\Pass\GI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pass\LampDI\ProbeND.h">
+      <Filter>头文件\Pass\LampDI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pass\LampDI\ScreenProbeSH.h">
+      <Filter>头文件\Pass\LampDI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pass\LampDI\Reflection.h">
+      <Filter>头文件\Pass\LampDI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\GBuffer.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\DeferLighting.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\CompositeDI.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\VoxelDI.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Reflection.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
